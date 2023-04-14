@@ -1,0 +1,80 @@
+<div class="form-container">
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="company">Empresa:</label>
+    <input type="text" id="company" name="company"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <button class="btn">Enviar</button>
+    <button class="ripple-btn">Enviar com Efeito Ripple</button>
+  </fieldset>
+</div>
+
+<style>
+  .form-container {
+    border: 2px solid #ab1ae4;
+    padding: 20px;
+  }
+
+  fieldset {
+    background-color: #ab1ae4;
+  }
+
+  legend {
+    background-color: rgb(217, 17, 217);
+    color: white;
+    padding: 10px 20px;
+  }
+
+  input {
+    margin: 15px;
+  }
+  body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,59,138,1) 100%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+    font-size: 22px;
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .button{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,136,12,1) 100%, rgba(0,212,255,1) 100%);
+    width: 130px;
+    height: 60px;
+    font-size: 25px;
+    color: aliceblue;
+
+  }
+
+  .btn {
+    /* código do botão */
+    transition-duration: 0.4s; /* duração da animação */
+    background-color: #d47a04; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 16px 32px; /* tamanho do botão */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem sublinhado */
+    display: inline-block; /* exibição em linha */
+    font-size: 16px; /* tamanho do texto */
+    margin: 4px 2px; /* margem */
+    cursor: pointer; /* cursor em forma de mãozinha */
+  }
+
+  .btn:hover {
+    background-color: white; /* cor de fundo ao passar o mouse */
+    color: black; /* cor do texto ao passar o mouse */
+  }
+
+  .ripple-btn {
+    background-color: #c1720a; /* cor de fundo */
+    color: white; /* cor do texto */
+    border: black; /* remove a borda padrão */
+    padding: 12px 24px; /* espaçamento interno */
+    border-radius: 4px; /* bordas arredondadas */
+    position: relative; /* torna o elemento posicionado */
+
